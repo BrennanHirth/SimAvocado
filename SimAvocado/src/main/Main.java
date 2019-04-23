@@ -9,9 +9,11 @@ package main;
  *
  */
 public class Main {
+	enum myEnum {A,B,C,D};	// Demo of enumerated date type
 
 	public static void main(String[] args) {
-
+		myEnum e = myEnum.A;
+		System.out.println(e.toString());
 
 	}
 
