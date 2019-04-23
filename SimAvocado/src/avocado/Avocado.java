@@ -37,5 +37,21 @@ public class Avocado {
 	public void setWeightInGrams(int weightInGrams) {
 		this.weightInGrams = weightInGrams;
 	}
-	
+	/***
+	 * Make this avocado spoiled. No one would possibly eat it.
+	 */
+	public void makeUseless() {
+		condition = enumCondition.useless;
+	}
+	/***
+	 * Check to see if the avocado is useless
+	 * @return True if it's useless, false otherwise
+	 */
+	public boolean isUseless() {return condition == enumCondition.useless;}
+	/***
+	 * Generate a string representation of the current object
+	 */
+	public String toString() {
+		return "";
+	}
 }
